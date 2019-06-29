@@ -8,10 +8,12 @@
     "express": "^4.17.1",
     "request": "^2.88.0"
   },
+  "scripts": {
+	"start": "node index.js"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-	"start": "node index.js"
   },
   "repository": {
     "type": "git",
