@@ -1,17 +1,23 @@
 {
-  "name": "botkit-felix_the_cat_bot",
+  "name": "felix-the-cat-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "bot.js",
+  "description": "Test chat bot",
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimran86/felix_the_cat_bot.git"
+  },
+  "author": "Mohammad Imran Shamsi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mimran86/felix_the_cat_bot/issues"
+  },
+  "homepage": "https://github.com/mimran86/felix_the_cat_bot#readme",
   "dependencies": {
-    "botbuilder-adapter-facebook": "^1.0.3",
-    "botbuilder-storage-mongodb": "^0.9.5",
-    "botkit": "^4.0.1",
-    "botkit-plugin-cms": "^1.0.0",
-    "dotenv": "^7.0.0"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
   }
 }
